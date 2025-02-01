@@ -38,17 +38,15 @@ end
 })
 
 Tab:AddButton({
+	Name = "Strix",
+	Callback = function()
+loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
+end
+})
+Tab:AddButton({
     Name = "shop https://wiboostore.shop/ gõ tên gg",
     Callback = function()
         
-end    
-})
-
-Tab:AddButton({
-	Name = "Strix",
-	Callback = function()
-        loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
-
 end    
 })
 

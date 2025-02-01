@@ -8,7 +8,7 @@ local Tab = Window:MakeTab({
     	PremiumOnly = false
 })
 Tab:AddButton({
-    Name = "Đang bảo chì",
+    Name = "Đang bảo trì",
     Callback = function()
        local Settings = {
 end

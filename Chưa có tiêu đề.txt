@@ -44,3 +44,10 @@ Tab:AddButton({
 	
 end
 })
+
+Tab:AddButton({
+	Name = "À mà shop tao scam đó :)",
+	Callback = function()
+
+  	end    
+})

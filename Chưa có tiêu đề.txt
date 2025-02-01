@@ -18,31 +18,7 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
       end    
 })
-Tab:AddButton({
-    Name = "Cụt tay ( gạt cần )",
-    Callback = function()
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
-      end    
-})
-Tab:AddButton({
-    Name = "roi sờ kai tin",
-    Callback = function()
-      loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
-      end    
-})
-Tab:AddButton({
-	Name = "Min",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"))()
-end    
-})
 
-Tab:AddButton({
-	Name = "Strix",
-	Callback = function()
-loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
-end
-})
 Tab:AddButton({
     Name = "shop https://wiboostore.shop/ gõ tên gg",
     Callback = function()

@@ -23,10 +23,10 @@ local Tab2 = Window:CreateTab({
 	["Name"] = "Setting",
 	["Icon"] = "rbxassetid://7734053495"
 })
-local Section = Tab1:AddSection("Skid đứa khác")
+local Section = Tab1:AddSection("Script Tổng Hợp v1")
 local Paragraph = Section:AddParagraph({
-	["Title"] = "Liên Quân Mobile",
-	["Content"] = "Tai đéo biết làm nên skid"
+	["Title"] = "Paragraph",
+	["Content"] = "This is a Paragraph"
 })
 Paragraph:Set({
 	["Title"] = "Paragraph",

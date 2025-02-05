@@ -46,6 +46,13 @@ local Toggle = Section:AddToggle({
 Toggle:Set(false)
 print(Toggle.Value)
 local Button = Section:AddButton({
+	["Title"] = "Cày LV",
+	["Content"] = "Ổn",
+	["Icon"] = "rbxassetid://16932740082",
+	["Callback"] = function()
+		end
+	})
+local Button = Section:AddButton({
 	["Title"] = "Rét",
 	["Content"] = "Ổn",
 	["Icon"] = "rbxassetid://16932740082",

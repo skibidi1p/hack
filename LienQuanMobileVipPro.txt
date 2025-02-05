@@ -1,7 +1,7 @@
 local UiMakeLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Msunehub/Uilm/refs/heads/main/UiMat1.lua"))()
 local Notify = UiMakeLib:MakeNotify({
 	["Title"] = "Liên Quân Mobile",
-	["Description"] = "Notification",
+	["Description"] = "Update 5-2-2025",
 	["Color"] = Color3.fromRGB(151, 207, 23),
 	["Content"] = "Chia Sẻ Vip",
 	["Time"] = 1,
@@ -29,8 +29,8 @@ local Paragraph = Section:AddParagraph({
 	["Content"] = "This is a Paragraph"
 })
 Paragraph:Set({
-	["Title"] = "Thông Boá",
-	["Content"] = "Script Tổng Hợp Sẽ Up"
+	["Title"] = "Thông Báo",
+	["Content"] = ""
 })
 local Toggle = Section:AddToggle({
 	["Title"]= "Toggle",
@@ -100,6 +100,22 @@ getgenv().Hide_Menu = false
 getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
 	end
+})
+local Button = Section:AddButton({
+	["Title"] = "Min",
+	["Content"] = "Ổn",
+	["Icon"] = "rbxassetid://16932740082",
+	["Callback"] = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"))()
+	end
+})
+local Button = Section:AddButton({
+	["Title"] = "Kaitun",
+	["Content"] = "Ổn",
+	["Icon"] = "rbxassetid://16932740082",
+	["Callback"] = function()
+loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+end
 })
 local Slider = Section:AddSlider({
 	["Title"] = "Slider",

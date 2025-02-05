@@ -45,6 +45,9 @@ local Toggle = Section:AddToggle({
 })
 Toggle:Set(false)
 print(Toggle.Value)
+local Tab2 = Window:CreateTab({
+	["Name"] = "te",
+	["Icon"] = "rbxassetid://7734053495"
 local Button = Section:AddButton({
 	["Title"] = "Rét",
 	["Content"] = "Ổn",

@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Đăng Ký Kênh Văn Thành IOS";
+shared.LoaderTitle = "Liên Quân Mobile";
 shared.LoaderKeyFrames = {
     [1] = {
         1,

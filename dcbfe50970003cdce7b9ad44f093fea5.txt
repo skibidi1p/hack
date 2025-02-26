@@ -1,3 +1,15 @@
+require(game.ReplicatedStorage:WaitForChild("Notification")).new(
+            " <Color=Green>W-MB<Color=/> "
+        ):Display()
+        
+        require(game.ReplicatedStorage:WaitForChild("Notification")).new(
+            " <Color=Green>Xin Chào<Color=/> "
+        ):Display()
+        
+        require(game.ReplicatedStorage:WaitForChild("Notification")).new(
+            " <Color=Green>Script Mới Ra<Color=/> "
+        ):Display()
+
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()

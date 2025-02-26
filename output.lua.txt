@@ -2236,7 +2236,7 @@ end)
 LGa:AddButton({
     Title = "Rain Fruit",
     Callback = function()
-        local fruitObjects = game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()
+        local fruitObjects = game:GetObjects("rbxassetid://71014873973869")[1]:GetChildren()
         local maxFruits = 10
         local count = 0
         for i, v in pairs(fruitObjects) do

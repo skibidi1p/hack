@@ -6,7 +6,9 @@ require(game.ReplicatedStorage:WaitForChild("Notification")).new(
             " <Color=Green>Xin Chào<Color=/> "
         ):Display()
         
-        require(game.ReplicatedStorage:WaitForChild("Notification")).new(
+        
+
+require(game.ReplicatedStorage:WaitForChild("Notification")).new(
             " <Color=Green>Script Mới Ra<Color=/> "
         ):Display()
 

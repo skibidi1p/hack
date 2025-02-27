@@ -9080,3 +9080,6 @@ spawn(function()
         end
     end
 end)
+require(game.ReplicatedStorage:WaitForChild("Notification")).new(
+            " <Color=black>Đang Uodate <Color=/> "
+        ):Display()

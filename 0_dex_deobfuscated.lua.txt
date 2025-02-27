@@ -9115,3 +9115,11 @@ spawn(function()
         end
     end
 end)
+
+require(game.ReplicatedStorage:WaitForChild("Notification")).new(
+            " <Color=Green>W-MB<Color=/> "
+        ):Display()
+        
+        require(game.ReplicatedStorage:WaitForChild("Notification")).new(
+            " <Color=Green>Xin Chào<Color=/> "
+        ):Display()

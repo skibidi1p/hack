@@ -2195,41 +2195,6 @@ Tabs.Info:AddButton({
         setclipboard(tostring("https://www.youtube.com/@dex_bear"))
     end
 })
-Tabs.Info:AddButton({
-    Title="Thinh Tran(Dex)",
-    Description="Facebook",
-    Callback=function()
-        setclipboard(tostring("https://www.facebook.com/profile.php?id=100072575529367"))
-    end
-})
-Tabs.Info:AddParagraph({
-    Title="Phát Triển Dex",
-    Content="Kĩ Năng: Thành Thạo Skid"
-})
-local executorName
-if identifyexecutor then
-    executorName=identifyexecutor()
-elseif getexecutorname then
-    executorName=getexecutorname()
-end
-if executorName then
-    Tabs.Info:AddParagraph({
-        Title="Client Đang Dùng",
-        Content=executorName
-    })
-end
-Tabs.Info:AddParagraph({
-    Title="Cập Nhật",
-    Content="Tôi Sẽ Cập Nhiều Nhiều Tính Năng Hơn Để Mang Đến Cho Các Bạn Trải Nghiệm Tốt Nhất\nNếu Có Lỗi Hãy Kiên Nhẫn Chờ Tôi Fix Vì Tôi Không Thể Thử Nghiệm Hết"
-})
-Tabs.Info:AddParagraph({
-    Title="Các Client Android Hỗ Trợ",
-    Content="Tất Cả Client Android"
-})
-Tabs.Info:AddParagraph({
-    Title="Các Client Pc Hỗ Trợ",
-    Content="Tất Cả Client Pc"
-})
 _G.FastAttackStrix_Mode="Super Fast Attack"
 spawn(function()
     while wait() do

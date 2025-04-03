@@ -1,0 +1,23 @@
+local hitboxSize = Vector3.new(10, 10, 10) -- Kích thước hitbox mong muốn
+
+local function expandHitbox(character)
+    if character and character:FindFirstChild("HumanoidRootPart") then
+        character.HumanoidRootPart.Size = hitboxSize
+        character.HumanoidRootPart.Transparency = 0.5 -- Làm hitbox trong suốt một phần
+        character.HumanoidRootPart.CanCollide = false -- Ngăn va chạm không mong muốn
+    end
+end
+
+local function applyHitboxExpansion()
+    for _, player in pairs(game.Players:GetPlayers()) do
+        if player ~= game.Players.LocalPlayer and player.Character then
+            expandHitbox(player.Character)
+        end
+    end
+end
+
+game.Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(expandHitbox)
+end)
+
+applyHitboxExpansion()
